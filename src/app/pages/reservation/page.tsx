@@ -40,6 +40,7 @@ interface ReservationData {
   musicians: string
 }
 
+const LINE = 'linear-gradient(to right, rgba(212, 175, 55, 0.2), rgba(212, 175, 55, 0.8), rgba(212, 175, 55, 0.2))'
 const WHATSAPP_NUMBER = "22960488512";  
  
 function StaffLines({ className = "" }) {
